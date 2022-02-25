@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9895c0fa-0b58-45de-9878-99b2d94b5eea" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1uyxVGZXJg7U3dbjutaz1gnWkzq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Nec Tracking System\server" />
+      <recent name="C:\xampp1\htdocs\Nec Tracking System\server" />
+      <recent name="C:\xampp1\htdocs\Nec Tracking System\js" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9895c0fa-0b58-45de-9878-99b2d94b5eea" name="Default Changelist" comment="" />
+      <created>1625651653499</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625651653499</updated>
+      <workItem from="1625651660099" duration="720000" />
+      <workItem from="1625652405784" duration="27103000" />
+      <workItem from="1625825988200" duration="595000" />
+      <workItem from="1626081686468" duration="610000" />
+      <workItem from="1626088182372" duration="4793000" />
+      <workItem from="1626101794248" duration="4555000" />
+      <workItem from="1626119917048" duration="6526000" />
+      <workItem from="1626397608117" duration="30000" />
+      <workItem from="1626397656607" duration="24718000" />
+      <workItem from="1626876138273" duration="3032000" />
+      <workItem from="1627130664185" duration="1369000" />
+      <workItem from="1627148984749" duration="8828000" />
+      <workItem from="1627237176313" duration="22854000" />
+      <workItem from="1627343466321" duration="314000" />
+      <workItem from="1627344151009" duration="533000" />
+      <workItem from="1627385680525" duration="138000" />
+      <workItem from="1627385901549" duration="65780000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="378" y="247" key="#Custom_Plugin_Repositories" timestamp="1627149011748">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="378" y="247" key="#Custom_Plugin_Repositories/0.0.1366.768@0.0.1366.768" timestamp="1627149011748" />
+    <state x="275" y="99" key="#HTTP_Proxy" timestamp="1627131025878">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="275" y="99" key="#HTTP_Proxy/0.0.1366.768@0.0.1366.768" timestamp="1627131025878" />
+    <state x="0" y="223" key="#SQL_Dialects" timestamp="1625653764028">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="0" y="223" key="#SQL_Dialects/0.0.1366.768@0.0.1366.768" timestamp="1625653764028" />
+    <state x="137" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1627466247375">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="137" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1627466247375" />
+    <state x="469" y="91" key="NewPhpClassDialog" timestamp="1627424037999">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="469" y="91" key="NewPhpClassDialog/0.0.1366.768@0.0.1366.768" timestamp="1627424037999" />
+    <state x="517" y="303" key="NewPhpFileDialog" timestamp="1627564252086">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="517" y="303" key="NewPhpFileDialog/0.0.1366.768@0.0.1366.768" timestamp="1627564252086" />
+    <state x="0" y="32" key="SettingsEditor" timestamp="1627149187609">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="0" y="32" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1627149187609" />
+    <state x="339" y="172" key="run.anything.popup" timestamp="1627550229172">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="339" y="172" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1627550229172" />
+  </component>
+</project>

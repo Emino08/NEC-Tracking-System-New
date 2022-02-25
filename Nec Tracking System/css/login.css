@@ -1,0 +1,60 @@
+html{
+    height: 100%;
+}
+body{
+    /* background-image: url("../images/NEC_Building2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%; */
+    /* background-color: #ffb703; */
+    background-color: #272C46
+    
+}
+
+#nec_heading{
+    text-align: center;
+    font-weight: bolder;
+    
+}
+
+#card{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.color{
+    /* background-color:#023047; */
+   background-color: #10163A;
+    color:white;
+}
+
+.field-icon {
+    float: right;
+    margin-left:15px;
+    margin-right: 10px;
+    margin-top: -25px;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .dot {
+    height: 15px;
+    width: 15px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .dot1 {
+    height: 15px;
+    width: 15px;
+    background-color: yellow;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .dot2 {
+    height: 15px;
+    width: 15px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+  }

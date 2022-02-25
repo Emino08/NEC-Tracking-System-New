@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nec Tracking System</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="./css/w3.css">
+    <link rel="stylesheet" href="css/login.css">
+    <script src="js/staff_profile.js"></script>
+    <script src="./js/settings.js"></script>
+    <link rel="icon" href="./images/nec.png" type="image/icon type">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body class="w3-container">
+<div class="w3-bar w3-container w3-margin-top w3-pane color w3-round-xlarge" style="height: 50px; padding-top: 6px;">
+    <a href="helpdesk_staff.html" class="w3-bar-item  w3-round-xlarge"><img height="40px" width="28px"class="w3-image w3-hover-grayscale" src="./images/nec.png" alt=""></a>
+    <a onclick="logout(event)" class="w3-bar-item w3-button w3-round-xlarge w3-right w3-hide-small">Logout</a>
+    <a href="staff_profile.html" class="w3-bar-item w3-button w3-round-xlarge w3-right w3-hide-small  w3-gray">Profile</a>
+    <a href="helpdesk_staff.html" class="w3-bar-item w3-button w3-round-xlarge w3-right w3-hide-small">Help Desk</a>
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="navBar()">&#9776;</a>
+</div>
+
+
+<!-- Vertical Navigation -->
+<div id="demo" class="w3-bar-block color w3-hide w3-hide-large w3-hide-medium w3-margin-bottom">
+    <a href="helpdesk_staff.html" class="w3-bar-item w3-button">Help Desk</a>
+    <a href="staff_profile.html" class="w3-bar-item w3-button  w3-gray">Profile</a>
+    <a onclick="logout(event)" href="index.html" class="w3-bar-item w3-button">Logout</a>
+</div>
+
+
+<div id="card" class="w3-margin-bottom">
+
+<form id="f_login" class="w3-container w3-card-4 w3-round-xxlarge color" onsubmit="return false">
+        <h3 class="w3-margin">Update your profile</h3>
+        <p>
+            <input id="username" class="w3-input w3-border w3-round-xxlarge w3-white" disabled name="last" type="text"  placeholder="Username">
+        </p>
+            <input id="fName" class="w3-input w3-border w3-round-xxlarge w3-white" disabled name="last" type="text" placeholder="Full Name">
+           </p>
+
+           <p>
+            <input id="department" class="w3-input w3-border w3-round-xxlarge w3-white" disabled name="last" type="text" placeholder="Department">
+           </p>
+
+           <p>
+            <input id="opassword" max="10" class="w3-input w3-border w3-round-xxlarge" name="last" type="password" placeholder="Old Password">
+            <span toggle="#opassword" class="fa fa-fw fa-eye field-icon toggle-password w3-text-black"></span>
+           </p>
+
+           <p>
+            <input id="npassword" max="10" class="w3-input w3-border w3-round-xxlarge" name="last" type="password" placeholder="New Password">
+            <span toggle="#npassword" class="fa fa-fw fa-eye field-icon toggle-password w3-text-black"></span>
+           </p>
+
+           <p>
+            <input id="rpassword" max="10" class="w3-input w3-border w3-round-xxlarge" name="last" type="password" placeholder="Retype Password">
+            <span toggle="#rpassword" class="fa fa-fw fa-eye field-icon toggle-password w3-text-black"></span>
+           </p>
+        
+        <p><button class="w3-btn w3-black w3-round-xxlarge w3-right w3-margin-bottom">Change</button></p>
+      </form>
+    </div>
+
+</body>
+</html>

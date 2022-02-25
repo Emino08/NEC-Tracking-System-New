@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nec Tracking System</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="./css/w3.css">
+    <link rel="stylesheet" href="css/login.css">
+    <script src="js/rejected.js"></script>
+    <script src="./js/settings.js"></script>
+    <link rel="icon" href="./images/nec.png" type="image/icon type">
+</head>
+<body class="w3-container">
+<!-- Horizontal Navigation -->
+<div class="w3-bar w3-container w3-margin-top w3-pane color w3-round-xlarge" style="height: 50px; padding-top: 6px;">
+    <a href="admin_dashboard.html" class="w3-bar-item  w3-round-xlarge"><img height="40px" width="28px"class="w3-image w3-hover-grayscale" src="./images/nec.png" alt=""></a>
+    <a onclick="logout(event)" class="w3-bar-item w3-button w3-round-xlarge w3-right w3-hide-small">Logout</a>
+    <a href="admin_profile.html" class="w3-bar-item w3-button w3-round-xlarge w3-right w3-hide-small">Profile</a>
+    <a href="admin_report.html" class="w3-bar-item w3-button w3-round-xlarge w3-right w3-hide-small">Report</a>
+    <a href="admin_register.html" class="w3-bar-item w3-button w3-round-xlarge w3-right w3-hide-small">Admin</a>
+    <a href="admin_memo.html" class="w3-bar-item w3-button w3-round-xlarge w3-right w3-hide-small w3-gray">Memo</a>
+    <a href="admin_helpdeskproblem.html" class="w3-bar-item w3-button w3-round-xlarge w3-right w3-hide-small">Help Desk Problems</a>
+    <a href="admin_dashboard.html" class="w3-bar-item w3-button w3-round-xlarge w3-right w3-hide-small">Dashboard</a>
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="navBar()">&#9776;</a>
+</div>
+
+
+<!-- Vertical Navigation -->
+<div id="demo" class="w3-bar-block color w3-hide w3-hide-large w3-hide-medium w3-margin-bottom">
+    <a href="admin_dashboard.html" class="w3-bar-item w3-button w3-round-xlarge">Dashboard</a>
+    <a href="admin_helpdeskproblem.html" class="w3-bar-item w3-button">Help Desk Problems</a>
+    <a href="admin_memo.html" class="w3-bar-item w3-button w3-round-xlarge w3-gray">Memo</a>
+    <a href="admin_register.html" class="w3-bar-item w3-button w3-round-xlarge">Admin</a>
+    <a href="admin_report.html" class="w3-bar-item w3-button w3-round-xlarge">Report</a>
+    <a href="admin_profile.html" class="w3-bar-item w3-button w3-round-xlarge">Profile</a>
+    <a onclick="logout(event)" class="w3-bar-item w3-button w3-round-xlarge">Logout</a>
+</div>
+
+<div class="w3-row">
+    <div class="w3-third w3-panel w3-center">
+        <a href="admin_accepted.html" class="w3-button color w3-round-xxlarge" style="width: 60%;">Accepted</a>
+    </div>
+    <div class="w3-third w3-panel w3-center">
+        <a href="admin_rejected.html" class="w3-button color w3-round-xxlarge w3-gray" style="width: 60%;">Rejected</a>
+    </div>
+    <div class="w3-third w3-panel w3-center">
+        <a href="admin_processing.html" class="w3-button color w3-round-xxlarge" style="width: 60%;">Processing</a>
+    </div>
+</div>
+
+<div id="card"  class="w3-margin-bottom">
+
+    <div class="w3-container w3-card-3 w3-round-xxlarge color" style="width: 85%;">
+        <h3>Search for memos</h3>
+
+        <input class="w3-input w3-border w3-padding w3-round-xxlarge" type="text" placeholder="Search for memos..." id="myInput" onkeyup="search()">
+        <table class="w3-table-all w3-margin-top" id="myTable">
+
+        </table>
+    </div>
+</div>
+
+<!-- For the modal -->
+<div class="w3-container">
+
+
+    <div id="id01" class="w3-modal">
+        <div class="w3-modal-content">
+            <header class="w3-container color">
+              <span onclick="document.getElementById('id01').style.display='none'"
+                    class="w3-button w3-display-topright">&times;</span>
+                <h3>James Pundeh Kamara</h3>
+                <span>12/06/2021 12:40pm</span>
+            </header>
+            <div class="w3-container">
+                <p>My monitor screen is not working</p>
+            </div>
+            <footer class="w3-container color">
+                <p>Modal Footer</p>
+            </footer>
+        </div>
+    </div>
+</div>
+
+<!-- For the filter
+<script>
+    function search() {
+      // Declare variables
+      var input, filter, table, tr, td, td1, i;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[1];
+    // td1 = tr[i].getElementsByTagName("td")[1];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      // txtValue1 = td1.textContent || td1.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1){
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }
+  }
+    }
+</script>
+
+<script>
+    function navBar() {
+        var x = document.getElementById("demo");
+        if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+        } else {
+            x.className = x.className.replace(" w3-show", "");
+        }
+    }
+</script> -->
+</body>
+</html>

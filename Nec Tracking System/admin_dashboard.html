@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nec Tracking System</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="./css/w3.css">
+    <link rel="stylesheet" href="css/login.css">
+    <script src="js/admin_dashboard.js"></script>
+    <script src="./js/settings.js"></script>
+    <link rel="icon" href="./images/nec.png" type="image/icon type">
+</head>
+<body class="w3-container">
+    <!-- Horizontal Navigation -->
+    <div class="w3-bar w3-container w3-margin-top w3-pane color w3-round-xlarge" style="height: 50px; padding-top: 6px;">
+      <a href="admin_dashboard.html" class="w3-bar-item  w3-round-xlarge"><img height="40px" width="28px"class="w3-image w3-hover-grayscale" src="./images/nec.png" alt=""></a>
+        <a onclick="logout(event)" class="w3-bar-item w3-button w3-round-xlarge w3-right w3-hide-small">Logout</a>
+        <a href="admin_profile.html" class="w3-bar-item w3-button w3-round-xlarge w3-right w3-hide-small">Profile</a>
+        <a href="admin_report.html" class="w3-bar-item w3-button w3-round-xlarge w3-right w3-hide-small">Report</a>
+        <a href="admin_register.html" class="w3-bar-item w3-button w3-round-xlarge w3-right w3-hide-small">Admin</a>
+         <a href="admin_memo.html" class="w3-bar-item w3-button w3-round-xlarge w3-right w3-hide-small">Memo</a>
+        <a href="admin_helpdeskproblem.html" class="w3-bar-item w3-button w3-round-xlarge w3-right w3-hide-small">Desk Problems</a>
+        <a href="admin_dashboard.html" class="w3-bar-item w3-button w3-round-xlarge w3-right w3-hide-small w3-gray">Dashboard</a>
+       
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="navBar()">&#9776;</a>
+    </div>
+
+
+    <!-- Vertical Navigation -->
+    <div id="demo" class="w3-bar-block color w3-hide w3-hide-large w3-hide-medium w3-margin-bottom">
+        <a href="admin_dashboard.html" class="w3-bar-item w3-button w3-round-xlarge">Dashboard</a>
+        <a href="admin_helpdeskproblem.html" class="w3-bar-item w3-button w3-round-xlarge">Desk Problems</a>
+        <a href="admin_memo.html" class="w3-bar-item w3-button w3-round-xlarge">Memo</a>
+        <a href="admin_register.html" class="w3-bar-item w3-button w3-round-xlarge ">Admin</a>
+        <a href="admin_report.html" class="w3-bar-item w3-button w3-round-xlarge ">Report</a>
+        <a href="admin_profile.html" class="w3-bar-item w3-button w3-round-xlarge ">Profile</a>
+        <a onclick="logout(event)" class="w3-bar-item w3-button w3-round-xlarge ">Logout</a>
+      </div>
+
+    <div id="card">
+
+      <div class="w3-container w3-card-3 w3-round-xxlarge color" style="width: 85%;">
+
+<div class="w3-row">
+  <div class="w3-third w3-panel w3-center">
+    <a href="admin_helpdeskproblem.html" class="w3-button color w3-round-xxlarge w3-green" style="width: 80%;">Problems
+      <p id="no_problems"></p></a>
+  </div>
+  <div class="w3-third w3-panel w3-center">
+    <a href="admin_solved.html" class="w3-button color w3-round-xxlarge w3-white" style="width: 80%;">Solved
+      <p id="no_solved"></p></a>
+  </div>
+  <div class="w3-third w3-panel w3-center">
+    <a href="admin_notsolved.html" class="w3-button w3-round-xxlarge w3-blue" style="width: 80%;">Not Solved
+      <p id="no_notsolved"></p></a>
+  </div>
+</div>
+
+<div class="w3-row">
+  <div class="w3-third w3-panel w3-center">
+    <a href="admin_accepted.html" class="w3-button w3-round-xxlarge w3-green" style="width: 80%;">Accepted
+      <p id="accepted"></p></a>
+  </div>
+  <div class="w3-third w3-panel w3-center">
+    <a href="admin_rejected.html" class="w3-button w3-round-xxlarge w3-white" style="width: 80%;">Rejected
+      <p id="rejected"></p></a>
+  </div>
+  <div class="w3-third w3-panel w3-center">
+    <a href="admin_processing.html" class="w3-button w3-round-xxlarge w3-blue" style="width: 80%;">Processing
+      <p id="processing"></p></a>
+  </div>
+</div>
+
+
+      </div>
+    </div>
+<!-- 
+
+    <script>
+        function navBar() {
+          var x = document.getElementById("demo");
+          if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+          } else { 
+            x.className = x.className.replace(" w3-show", "");
+          }
+        }
+        </script> -->
+
+</body>
+</html>
